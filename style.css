@@ -52,5 +52,16 @@ div p {/*matches element inside a specific parent*/
 }
 /* list style image directly inserts image cannot control size use background image instead */
 #unorder{
-    list-style-image: url("rengoku.jpg");
+    list-style-image: url("" );/*can add image inside teh url*/
+}
+table{
+    border: 2px black solid;
+    border-collapse: collapse;
+    border-spacing: 25px;
+    border-radius: 20px;
+    
+}
+td,th{
+    border: 1px solid white;
+    
 }
