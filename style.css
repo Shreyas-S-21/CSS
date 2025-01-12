@@ -1,0 +1,56 @@
+/* it adds visual appearance for html
+has 2 parts. selectors and declaration
+selector is for mentioning the tag
+declaration is used to add attributes to the tags -properyty and value*/
+/* there are 3 ways to add styles to css
+1. inline explain on the same line
+2. internal explain in the head
+3. external explain in a different .css file*/
+/* whhen using inline internal external all together on same tag priority for inline internal and external */
+/* better use external  */
+/* css is rendered top to bottom. so the latest one is the final rendered design
+eg. u have universal and tag then tag for specific changes rest all have universal content */
+/* there are 4 types of selectors
+tag_name
+id --  #idName
+class --  .className
+universal -- *   universal condition is applied for all
+ */
+ * {
+    background-color: rgb(37, 17, 213);
+}
+
+p {
+    color: rgb(143, 29, 31);
+}
+.highlight {
+    background-color: yellow;
+}
+#main {
+    font-size: 20px;
+}
+h5, h6 {/*group selectors*/
+    font-family: Arial, sans-serif;
+}
+div p {/*matches element inside a specific parent*/
+    color: rgb(3, 255, 95);
+}
+#text{ color: aliceblue;font-family: 'Courier New', Courier, monospace; text-align: center; text-decoration: double;text-transform: lowercase;
+    line-height: normal;
+
+}
+#division{
+    background-color: brown;
+    /* background-image: url("rengoku.jpg"); */
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+#bullet{
+    list-style-type: lower-roman;
+}
+/* list style image directly inserts image cannot control size use background image instead */
+#unorder{
+    list-style-image: url("rengoku.jpg");
+}
